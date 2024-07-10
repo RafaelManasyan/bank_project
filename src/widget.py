@@ -1,5 +1,5 @@
 def mask_account_card(acc_card_number: str) -> str:
-    """Функция скрытия номера карты или номера счета"""
+    """Функция определения и скрытия номера карты или номера счета"""
     if "Счет" in acc_card_number:
         masked_info_list = "Счет ", "**", acc_card_number[-4:]
         masked_info = "".join(masked_info_list)
