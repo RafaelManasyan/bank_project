@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3dc5d6a3-21f0-4641-9eb8-4942fe074501" name="Changes" comment="поменял гитигнор&#10;удалил директорию венв" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Rafael Manasyan &lt;rafaelmanasyan@macbook-air-rafael.local&gt;" />
+      </list>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/homework_10_1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RafaelManasyan&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RafaelManasyan/bank_project.git&quot;,
+    &quot;accountId&quot;: &quot;a681b6c4-bbbd-42a9-9554-12ad37be0302&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2iiuLOvJQboFvMMPTMcQonWBxVg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.masks.executor": "Run",
+    "Python.processing.executor": "Run",
+    "Python.widget.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "develop",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3dc5d6a3-21f0-4641-9eb8-4942fe074501" name="Changes" comment="" />
+      <created>1719985661162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719985661162</updated>
+    </task>
+    <task id="LOCAL-00001" summary="добавили определение даты">
+      <option name="closed" value="true" />
+      <created>1720602544375</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720602544375</updated>
+    </task>
+    <task id="LOCAL-00002" summary="добавили определение даты">
+      <option name="closed" value="true" />
+      <created>1720605985572</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720605985572</updated>
+    </task>
+    <task id="LOCAL-00003" summary="добавили определение даты">
+      <option name="closed" value="true" />
+      <created>1720606051467</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720606051467</updated>
+    </task>
+    <task id="LOCAL-00004" summary="добавили определение даты">
+      <option name="closed" value="true" />
+      <created>1720625448987</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720625448987</updated>
+    </task>
+    <task id="LOCAL-00005" summary="добавили определение даты">
+      <option name="closed" value="true" />
+      <created>1720625867932</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720625867932</updated>
+    </task>
+    <task id="LOCAL-00006" summary="написал функцию по выводу отфильтрованных словарей">
+      <option name="closed" value="true" />
+      <created>1720630626940</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720630626940</updated>
+    </task>
+    <task id="LOCAL-00007" summary="написал функцию по сортировке словарей по дате">
+      <option name="closed" value="true" />
+      <created>1720693538063</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720693538063</updated>
+    </task>
+    <task id="LOCAL-00008" summary="прогнал по black, flake8, mypy, isort">
+      <option name="closed" value="true" />
+      <created>1720693875042</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720693875042</updated>
+    </task>
+    <task id="LOCAL-00009" summary="исправил документацию по функции">
+      <option name="closed" value="true" />
+      <created>1720695831258</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720695831258</updated>
+    </task>
+    <task id="LOCAL-00010" summary="исправил первую и вторую ошибки&#10;на счет 3 и 4 не понимаю, они же выполнены, у вас не отображается?">
+      <option name="closed" value="true" />
+      <created>1720703438379</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720703438379</updated>
+    </task>
+    <task id="LOCAL-00011" summary="поменял гитигнор&#10;удалил директорию венв">
+      <option name="closed" value="true" />
+      <created>1720849983254</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720849983254</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="добавили определение даты" />
+    <MESSAGE value="написал функцию по выводу отфильтрованных словарей" />
+    <MESSAGE value="написал функцию по сортировке словарей по дате" />
+    <MESSAGE value="прогнал по black, flake8, mypy, isort" />
+    <MESSAGE value="исправил документацию по функции" />
+    <MESSAGE value="исправил первую и вторую ошибки&#10;на счет 3 и 4 не понимаю, они же выполнены, у вас не отображается?" />
+    <MESSAGE value="поменял гитигнор&#10;удалил директорию венв" />
+    <option name="LAST_COMMIT_MESSAGE" value="поменял гитигнор&#10;удалил директорию венв" />
+  </component>
+</project>
