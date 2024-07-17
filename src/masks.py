@@ -16,6 +16,3 @@ def get_mask_account(acc_num: str) -> str:
     hidden_num_list = "**", acc_num[-4:]
     hidden_acc_num = " ".join(hidden_num_list)
     return hidden_acc_num
-
-
-print(get_mask_account("73654108430135874305"))

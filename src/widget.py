@@ -10,7 +10,9 @@ def mask_account_card(acc_card_number: str) -> str:
             num_index = acc_card_number.find(symb)
             break
     if "Счет" not in acc_card_number:
-        bank_card = acc_card_number.replace(acc_card_number[(num_index + 6): (num_index + 12)], "******")
+        bank_card = acc_card_number.replace(
+            acc_card_number[(num_index + 6) : (num_index + 12)], "******"
+        )
         return bank_card
 
 
