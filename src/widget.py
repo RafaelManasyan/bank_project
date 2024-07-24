@@ -11,7 +11,7 @@ def mask_account_card(acc_card_number: str) -> str:
             if symb.isdigit():
                 num_index = acc_card_number.find(symb)
                 break
-        bank_card = acc_card_number.replace(acc_card_number[(num_index + 6) : (num_index + 12)], "******")
+        bank_card = acc_card_number.replace(acc_card_number[(num_index + 6): (num_index + 12)], "******")
         return bank_card
     return "Введите номер карты или счет"
 
