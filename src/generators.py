@@ -1,4 +1,5 @@
 def filter_by_currency(transaction_list: list, code="USD"):
+    """Фильтрация транзакций по валюте"""
     if transaction_list is not []:
         for transaction in transaction_list:
             if transaction["operationAmount"]["currency"]["code"] == code:
@@ -8,6 +9,7 @@ def filter_by_currency(transaction_list: list, code="USD"):
 
 
 def transaction_descriptions(transaction_list: list):
+    """Получение описания по транзакции"""
     if transaction_list is not []:
         for transaction in transaction_list:
             yield transaction["description"]
@@ -16,6 +18,7 @@ def transaction_descriptions(transaction_list: list):
 
 
 def card_number_generator():
+    """Генерация номеров для банковских карт"""
     for num in range(1, 9999999999999999):
         empty_num = 16 - len(f"{num}")
         joint_card = ("0" * empty_num) + f"{num}"
