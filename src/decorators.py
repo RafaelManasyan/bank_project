@@ -16,4 +16,3 @@ def log(filename=''):
                     print(f'{my_func.__name__} error: {type(err).__name__}. Inputs: {args} {kwargs}')
         return inner
     return wrapper
-
