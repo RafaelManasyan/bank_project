@@ -1,4 +1,5 @@
 def log(filename=""):
+    """Декоратор для логирования функций"""
     def wrapper(my_func):
         def inner(*args, **kwargs):
             try:
