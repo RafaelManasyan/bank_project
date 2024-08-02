@@ -17,4 +17,3 @@ def get_mask_account(acc_num: str) -> str:
         return hidden_acc_num
     else:
         return "Неправильно, введите номер счета"
-
