@@ -19,6 +19,12 @@ git clone https://github.com/RafaelManasyan/bank_project.git
 my_function = filter_by_currency
 print(next(my_function(my_list)))
 ```
+## Модуль decorators.py
+В модуле содержится декоратор, который позволяет обрабатывать функцию по нужным вам параматерам.
+Чтобы использовать декоратор достаточно перед любой функцией иметь запись следующего типа:
+```
+@decorator_name
+```
 ## Тестирование:
 Зайти в терминал и написать следующую команду:
 ```
