@@ -1,7 +1,9 @@
-from unittest.mock import patch
-from src.external_api import get_transaction_sum
 import os
+from unittest.mock import patch
+
 from dotenv import load_dotenv
+
+from src.external_api import get_transaction_sum
 
 load_dotenv()
 
