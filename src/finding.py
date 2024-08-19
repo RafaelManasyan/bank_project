@@ -1,16 +1,9 @@
 import re
-
-#
-# text = 'raf klnds sdnls nsal'
-# pattern = 'raf'
-# strs = re.match(pattern, text)
-# print(strs)
+from collections import Counter
 
 
-user_input_word = input('Enter word ')
-
-
-def sort_trans_by_user_input(trans_list, user_input) -> list:
+def filter_trans_by_user_input(trans_list, user_input) -> list:
+    """Function for filter transaction by user key-word"""
     pattern = user_input
     filtered_trans_list = []
     for trans in trans_list:
@@ -20,15 +13,8 @@ def sort_trans_by_user_input(trans_list, user_input) -> list:
     return filtered_trans_list
 
 
-
-
-
-print(sort_trans_by_user_input(
-    [{"id": 854048120,
-    "state": "EXECUTED",
-    "date": "2019-03-29T10:57:20.635567",
-    "operationAmount": {"amount": "30234.99", "currency": {"name": "USD", "code": "USD"}},
-    "description": "Перевод с карты на счет",
-    "from": "Visa Classic 1203921041964079",
-    "to": "Счет 34616199494072692721",
-     }], user_input_word))
+def category_counting(trans_list, category_list) -> dict:
+    """Function for counting transactions by categories which in category_list"""
+    all_trans_category_list = [trans['description'] for trans in trans_list if trans['description'] in category_list]
+    counted = Counter(all_trans_category_list)
+    return counted
