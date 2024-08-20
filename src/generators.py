@@ -1,11 +1,18 @@
-def filter_by_currency(transaction_list: list, code="USD"):
+def filter_by_currency(transaction_list: list, code='RUB'):
     """Фильтрация транзакций по валюте"""
-    if transaction_list is not []:
+    new_list = []
+    try:
+        if transaction_list is not []:
+            for transaction in transaction_list:
+                if transaction.get("currency_code") == code:
+                    new_list.append(transaction)
+                elif code == '':
+                    new_list.append(transaction)
+            return new_list
+    except KeyError:
         for transaction in transaction_list:
             if transaction["operationAmount"]["currency"]["code"] == code:
-                yield transaction
-    else:
-        return "Try again"
+                new_list.append(transaction)
 
 
 def transaction_descriptions(transaction_list: list):
