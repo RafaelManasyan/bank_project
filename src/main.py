@@ -12,7 +12,7 @@ PATH_TO_XLSX = "/Users/rafaelmanasyan/PycharmProjects/bank_project/data/transact
 
 
 def main():
-    "General function of project"
+    """General function of project"""
     transactions = []
     while True:
         menu_item = input(
