@@ -1,6 +1,6 @@
-from generators import filter_by_currency
+from utils import get_info
 
-
+PATH_TO_JSON = "/Users/rafaelmanasyan/PycharmProjects/bank_project/data/operations.json"
 user_filtered_trans = [
     {
         "id": "134341",
@@ -48,5 +48,4 @@ user_filtered_trans = [
     },
 ]
 
-fl = filter_by_currency(user_filtered_trans, code='')
-print(fl)
+print(type(get_info(PATH_TO_JSON)))

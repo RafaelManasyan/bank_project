@@ -28,7 +28,7 @@ two_trans = [
 ]
 
 
-@patch('src.convert_to_Py.csv.DictReader')
+@patch("src.convert_to_Py.csv.DictReader")
 def test_from_csv_to_py(mock_resp):
     mock_resp.return_value = two_trans
     assert from_csv_to_py("/Users/rafaelmanasyan/PycharmProjects/bank_project/data/test_data.csv") == two_trans
@@ -36,4 +36,4 @@ def test_from_csv_to_py(mock_resp):
 
 
 def test_from_xlsx_to_py():
-    assert from_xlsx_to_py('') == ["Path is not correct"]
+    assert from_xlsx_to_py("") == ["Path is not correct"]
