@@ -24,4 +24,3 @@ def from_xlsx_to_py(path) -> list:
         return py_dict
     except FileNotFoundError:
         return ["Path is not correct"]
-

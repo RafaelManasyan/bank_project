@@ -33,7 +33,3 @@ def get_mask_account(acc_num: str) -> str:
     else:
         logger.error("Неподходящий номер аккаунта")
         return "Неправильно, введите номер счета"
-
-
-get_mask_card_number("73654108430135854893")
-get_mask_account("")
